@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- meta tags -->
+    <title>Devfolio - A software engineer portfolio</title>
+    <meta
+      name="title"
+      content="Devfolio - A software engineer portfolio
+    "
+    />
+    <meta
+      name="description"
+      content="This is a personal portfolio made by codewithsadee
+    "
+    />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml" />
+
+    <!-- google font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Open+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- material icon link -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="topbar">
+      <div class="logo">
+        <a href="#"
+          ><img
+            src="./assets/images/Logo_light.png"
+            alt="Devfolio"
+            class="light" />
+          <img src="./assets/images/Logo_dark.png" alt="Devfolio" class="dark"
+        /></a>
+      </div>
+      <button class="icon-btn theme-btn">
+        <span class="material-symbols-outlined dark" aria-hidden="true">
+          dark_mode
+        </span>
+        <span class="material-symbols-outlined light" aria-hidden="true">
+          light_mode
+        </span>
+        <div class="state-layer"></div>
+      </button>
+    </nav>
+    <main>
+      <article>
+        <section class="section hero">
+          <div class="container">
+            <figure
+              class="hero-banner img-holder"
+              style="--width: 240; --height: 240"
+            >
+              <img
+                src="./assets/images/profile.png"
+                alt="Ahmed Khalid"
+                class="img-cover"
+              />
+            </figure>
+            <div>
+              <div class="hero-content">
+                <small class="label-large section-subtitle"
+                  >software Engineer</small
+                >
+                <h1 class="display-small">Yousef Sayed</h1>
+                <p class="body-large section-text">
+                  I'm a 3 <sup>th</sup> year Computer Engineering Student, Front
+                  End Developer, Competitive Programmer
+                </p>
+              </div>
+              <div class="btn-wrapper">
+                <a href="mailto:yousefsayedd1@gmail.com" class="chip">
+                  <span class="material-symbols-outlined" aria-hidden="true">
+                    mail
+                  </span>
+                  <span class="label-large">yousefsayedd1@gmail.com</span>
+                  <div class="state-layer"></div>
+                </a>
+                <a href="tel:+201155351652" class="chip">
+                  <span class="material-symbols-outlined" aria-hidden="true">
+                    call
+                  </span>
+                  <span class="label-large">+201155351652</span>
+                  <div class="state-layer"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="article">
+          <section class="section about">
+            <div class="container">
+              <h2 class="title-medium about-heading">About</h2>
+              <p class="body-large about-content">
+                A passionate software engineer with a strong background in
+                Computer Science.
+              </p>
+              <div class="info">
+                <a
+                  href="https://www.google.com/maps/place/%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9%D8%8C+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9%E2%80%AC%E2%80%AD/@30.0595546,31.4061225,12z/data=!3m1!4b1!4m6!3m5!1s0x14583fa60b21beeb:0x79dfb296e8423bba!8m2!3d30.0444196!4d31.2357116!16zL20vMDF3MnY?entry=ttu"
+                  target="_blank"
+                  class="info-item label-medium place"
+                >
+                  <span class="material-symbols-outlined" aria-hidden="true">
+                    location_on
+                  </span>
+                  Cairo, Egypt
+                </a>
+                <!-- <a href="" class="info-item label-medium company">
+                <span class="material-symbols-outlined" aria-hidden="true">
+                  work
+                </span>
+                TechGulf Solutions
+              </a> -->
+                <a
+                  href="https://www.linkedin.com/in/yousefsayedd1/"
+                  target="_blank"
+                  class="info-item label-medium linkedin"
+                >
+                  <span class="material-symbols-outlined" aria-hidden="true">
+                    captive_portal
+                  </span>
+                  linkedin.com/in/yousefsayedd1/
+                </a>
+              </div>
+            </div>
+          </section>
+
+          <section class="section tabs-section">
+            <!-- Primary tabs -->
+            <div class="container">
+              <div class="primary-tabs">
+                <button class="tab-btn active" data-tab-btn="project">
+                  <span class="tab-text title-small">Project</span>
+                  <div class="state-layer"></div>
+                </button>
+                <button class="tab-btn" data-tab-btn="resume">
+                  <span class="tab-text title-small">Resume</span>
+                  <div class="state-layer"></div>
+                </button>
+                <button class="tab-btn" data-tab-btn="contact">
+                  <span class="tab-text title-small">Contact</span>
+                  <div class="state-layer"></div>
+                </button>
+              </div>
+            </div>
+
+            <!-- Projects -->
+            <section
+              class="section tab-content active"
+              data-tab-content="project"
+            >
+              <div class="list">
+                <div class="card">
+                  <figure
+                    class="cardbanner img-holder"
+                    style="--width: 334px; --height: 180px"
+                  >
+                    <img
+                      src="./assets/images/project-1.png"
+                      alt="Pixstock - Stock Media App"
+                      class="img-cover"
+                    />
+                  </figure>
+                  <div class="card-content">
+                    <small class="label-large">Web App </small>
+                    <h3 class="title-large card-title">
+                      Pixstock - Stock Media App
+                    </h3>
+                  </div>
+                  <a href="#" class="state-layer"></a>
+                </div>
+                <div class="card">
+                  <figure
+                    class="cardbanner img-holder"
+                    style="--width: 334px; --height: 180px"
+                  >
+                    <img
+                      src="./assets/images/project-1.png"
+                      alt="Pixstock - Stock Media App"
+                      class="img-cover"
+                    />
+                  </figure>
+                  <div class="card-content">
+                    <small class="label-large">Web App </small>
+                    <h3 class="title-large card-title">
+                      Pixstock - Stock Media App
+                    </h3>
+                  </div>
+                  <a href="#" class="state-layer"></a>
+                </div>
+                <div class="card">
+                  <figure
+                    class="cardbanner img-holder"
+                    style="--width: 334px; --height: 180px"
+                  >
+                    <img
+                      src="./assets/images/project-1.png"
+                      alt="Pixstock - Stock Media App"
+                      class="img-cover"
+                    />
+                  </figure>
+                  <div class="card-content">
+                    <small class="label-large">Web App </small>
+                    <h3 class="title-large card-title">
+                      Pixstock - Stock Media App
+                    </h3>
+                  </div>
+                  <a href="#" class="state-layer"></a>
+                </div>
+                <div class="card">
+                  <figure
+                    class="cardbanner img-holder"
+                    style="--width: 334px; --height: 180px"
+                  >
+                    <img
+                      src="./assets/images/project-1.png"
+                      alt="Pixstock - Stock Media App"
+                      class="img-cover"
+                    />
+                  </figure>
+                  <div class="card-content">
+                    <small class="label-large">Web App </small>
+                    <h3 class="title-large card-title">
+                      Pixstock - Stock Media App
+                    </h3>
+                  </div>
+                  <a href="#" class="state-layer"></a>
+                </div>
+                <div class="card">
+                  <figure
+                    class="cardbanner img-holder"
+                    style="--width: 334px; --height: 180px"
+                  >
+                    <img
+                      src="./assets/images/project-1.png"
+                      alt="Pixstock - Stock Media App"
+                      class="img-cover"
+                    />
+                  </figure>
+                  <div class="card-content">
+                    <small class="label-large">Web App </small>
+                    <h3 class="title-large card-title">
+                      Pixstock - Stock Media App
+                    </h3>
+                  </div>
+                  <a href="#" class="state-layer"></a>
+                </div>
+                <div class="card">
+                  <figure
+                    class="cardbanner img-holder"
+                    style="--width: 334px; --height: 180px"
+                  >
+                    <img
+                      src="./assets/images/project-1.png"
+                      alt="Pixstock - Stock Media App"
+                      class="img-cover"
+                    />
+                  </figure>
+                  <div class="card-content">
+                    <small class="label-large">Web App </small>
+                    <h3 class="title-large card-title">
+                      Pixstock - Stock Media App
+                    </h3>
+                  </div>
+                  <a href="#" class="state-layer"></a>
+                </div>
+              </div>
+            </section>
+            <section class="section tab-content" data-tab-content="resume">
+              <div class="container">
+                <div class="list">
+                  <div class="subsection">
+                    <div class="title-small section-title">Experience</div>
+                    <div class="job">
+                      <div class="body-large">Competitive Programmer</div>
+                      <small class="label-medium job-subtitle"
+                        >2021 - Present</small
+                      >
+                      <p class="body-medium job-content">
+                        participated in several programming competitions
+                        (online, onsite) - my team and I ranked 200 in ECPC 2023
+                      </p>
+                    </div>
+                  </div>
+                  <div class="subsection">
+                    <div class="title-small section-title">Educations</div>
+                    <div class="job">
+                      <div class="body-large">
+                        Bachelor's degree in Computer Engineering
+                      </div>
+                      <small class="label-medium job-subtitle"
+                        >2021 - 2026</small
+                      >
+                    </div>
+                    <div class="job">
+                      <div class="body-large">
+                        Certification in Web Development with React.js
+                        (FreeCodeCamp Certification)
+                      </div>
+                      <small class="label-medium job-subtitle"
+                        >2018 - Present</small
+                      >
+                    </div>
+                  </div>
+                  <div class="skills-tab" data-tab-content="resume">
+                    <div class="title-small">Skills and Technologies</div>
+
+                    <div class="section skills">
+                      <div class="skill label-medium">
+                        <figure
+                          class="img-holder"
+                          style="--width: 28px; --height: 28px"
+                        >
+                          <img
+                            class="img-cover"
+                            src="./assets/images/html5.svg"
+                            alt=""
+                          />
+                        </figure>
+                        HTML5
+                      </div>
+                      <div class="skill label-medium">
+                        <figure>
+                          <img src="./assets/images/css3.svg" alt="" />
+                        </figure>
+                        CSS3
+                      </div>
+                      <div class="skill label-medium">
+                        <figure>
+                          <img src="./assets/images/javascript.svg" alt="" />
+                        </figure>
+                        JavaScript
+                      </div>
+                      <div class="skill label-medium">
+                        <figure>
+                          <svg
+                            width="28"
+                            height="28"
+                            viewBox="0 0 28 28"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g clip-path="url(#clip0_65_801)">
+                              <path
+                                d="M14 0.583374C6.265 0.583374 0 6.74337 0 14.3407C0 20.4202 4.011 25.5757 9.5725 27.3934C10.2725 27.5229 10.5292 27.097 10.5292 26.7319C10.5292 26.4052 10.5175 25.5395 10.5117 24.3927C6.61733 25.2222 5.796 22.547 5.796 22.547C5.159 20.9592 4.2385 20.5345 4.2385 20.5345C2.97033 19.6817 4.3365 19.6992 4.3365 19.6992C5.74233 19.7949 6.48083 21.1167 6.48083 21.1167C7.72917 23.2202 9.758 22.6124 10.5583 22.2612C10.6843 21.371 11.0448 20.7655 11.445 20.4214C8.33583 20.0772 5.068 18.8942 5.068 13.6232C5.068 12.1217 5.6105 10.8944 6.50883 9.93187C6.35133 9.58421 5.87883 8.18537 6.63133 6.29071C6.63133 6.29071 7.80383 5.92204 10.4813 7.70121C11.6013 7.39554 12.7913 7.24387 13.9813 7.23687C15.1713 7.24387 16.3613 7.39554 17.4813 7.70121C20.1413 5.92204 21.3138 6.29071 21.3138 6.29071C22.0663 8.18537 21.5938 9.58421 21.4538 9.93187C22.3463 10.8944 22.8888 12.1217 22.8888 13.6232C22.8888 18.9082 19.6163 20.0714 16.5013 20.4097C16.9913 20.8227 17.4463 21.6662 17.4463 22.9554C17.4463 24.7964 17.4288 26.2757 17.4288 26.7225C17.4288 27.083 17.6738 27.5135 18.3913 27.3759C23.9925 25.5699 28 20.4109 28 14.3407C28 6.74337 21.7315 0.583374 14 0.583374Z"
+                                fill="var(--on-surface-variant)"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_65_801">
+                                <rect width="28" height="28" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </figure>
+                        GitHub
+                      </div>
+                      <div class="skill label-medium">
+                        <figure>
+                          <img src="./assets/images/VS_code.svg" alt="" />
+                        </figure>
+                        VS Code
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section
+              class="section contact-section tab-content"
+              data-tab-content="contact"
+            >
+              <div>
+                <h4 class="section-title title-small">Contact Info</h4>
+
+                <div class="connect">
+                  <span class="material-symbols-outlined" aria-hidden="true">
+                    mail
+                  </span>
+                  <div class="connect-info label-small">
+                    <small>Mail Us </small>
+                    <a href="mailto:yousefsayedd1@gmail.com" class="connect-way"
+                      >yousefsayedd1@gmail.com</a
+                    >
+                  </div>
+                </div>
+                <div class="connect">
+                  <span class="material-symbols-outlined" aria-hidden="true">
+                    call
+                  </span>
+                  <div class="connect-info label-small">
+                    <small>Contact Us </small>
+                    <a href="tel:+201155351652" class="connect-way"
+                      >+201155351652</a
+                    >
+                  </div>
+                </div>
+                <div class="connect">
+                  <span class="material-symbols-outlined" aria-hidden="true">
+                    location_on
+                  </span>
+                  <div class="connect-info label-small">
+                    <small>Address </small>
+                    <a
+                      href="https://www.google.com/maps/place/%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9%D8%8C+%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9%E2%80%AC%E2%80%AD/@30.0595546,31.4061225,12z/data=!3m1!4b1!4m6!3m5!1s0x14583fa60b21beeb:0x79dfb296e8423bba!8m2!3d30.0444196!4d31.2357116!16zL20vMDF3MnY?entry=ttu"
+                      target="_blank"
+                      class="connect-way"
+                      >Cairo Governorate, Egypt</a
+                    >
+                  </div>
+                </div>
+
+                <div class="divider"></div>
+                <h4 class="section-title title-small">Social Info</h4>
+                <div class="social-links">
+                  <a href="#">
+                    <svg
+                      width="28"
+                      height="28"
+                      viewBox="0 0 28 28"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_65_801)">
+                        <path
+                          d="M14 0.583374C6.265 0.583374 0 6.74337 0 14.3407C0 20.4202 4.011 25.5757 9.5725 27.3934C10.2725 27.5229 10.5292 27.097 10.5292 26.7319C10.5292 26.4052 10.5175 25.5395 10.5117 24.3927C6.61733 25.2222 5.796 22.547 5.796 22.547C5.159 20.9592 4.2385 20.5345 4.2385 20.5345C2.97033 19.6817 4.3365 19.6992 4.3365 19.6992C5.74233 19.7949 6.48083 21.1167 6.48083 21.1167C7.72917 23.2202 9.758 22.6124 10.5583 22.2612C10.6843 21.371 11.0448 20.7655 11.445 20.4214C8.33583 20.0772 5.068 18.8942 5.068 13.6232C5.068 12.1217 5.6105 10.8944 6.50883 9.93187C6.35133 9.58421 5.87883 8.18537 6.63133 6.29071C6.63133 6.29071 7.80383 5.92204 10.4813 7.70121C11.6013 7.39554 12.7913 7.24387 13.9813 7.23687C15.1713 7.24387 16.3613 7.39554 17.4813 7.70121C20.1413 5.92204 21.3138 6.29071 21.3138 6.29071C22.0663 8.18537 21.5938 9.58421 21.4538 9.93187C22.3463 10.8944 22.8888 12.1217 22.8888 13.6232C22.8888 18.9082 19.6163 20.0714 16.5013 20.4097C16.9913 20.8227 17.4463 21.6662 17.4463 22.9554C17.4463 24.7964 17.4288 26.2757 17.4288 26.7225C17.4288 27.083 17.6738 27.5135 18.3913 27.3759C23.9925 25.5699 28 20.4109 28 14.3407C28 6.74337 21.7315 0.583374 14 0.583374Z"
+                          fill="#333333"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_65_801">
+                          <rect width="28" height="28" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      x="0px"
+                      y="0px"
+                      width="100"
+                      height="100"
+                      viewBox="0 0 30 30"
+                    >
+                      <path
+                        d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.105,4,24,4z M10.954,22h-2.95 v-9.492h2.95V22z M9.449,11.151c-0.951,0-1.72-0.771-1.72-1.72c0-0.949,0.77-1.719,1.72-1.719c0.948,0,1.719,0.771,1.719,1.719 C11.168,10.38,10.397,11.151,9.449,11.151z M22.004,22h-2.948v-4.616c0-1.101-0.02-2.517-1.533-2.517 c-1.535,0-1.771,1.199-1.771,2.437V22h-2.948v-9.492h2.83v1.297h0.04c0.394-0.746,1.356-1.533,2.791-1.533 c2.987,0,3.539,1.966,3.539,4.522V22z"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <form
+                action="https://formspree.io/f/mayggpry"
+                method="POST"
+                class="form"
+              >
+                <h4 class="form-title title-large">Let’s Work Together.</h4>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Name*"
+                  id=""
+                  required
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email*"
+                  required
+                />
+                <input type="text" name="subject" placeholder="Subject" />
+                <textarea
+                  name="message"
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Message"
+                  required
+                ></textarea>
+                <button type="submit" class="label-large">Send Message</button>
+              </form>
+            </section>
+          </section>
+        </div>
+      </article>
+    </main>
+    <footer>
+      <p class="body-medium">
+        Copyright 2024. All right reserved by Yousef Sayed
+      </p>
+    </footer>
+    <!-- custom js link -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
